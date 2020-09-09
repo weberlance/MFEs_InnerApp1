@@ -17,7 +17,7 @@ class Page extends React.Component {
       <div>
         <p>Page Page of inner app 1</p>
         {ReducerExample.data ? (
-          <p>api data: {ReducerExample.data.toString()}</p>
+          <p>api data that are in the Microfrontend store:  <b>{ReducerExample.data.toString()}</b></p>
         ) : null}
       </div>
     );
